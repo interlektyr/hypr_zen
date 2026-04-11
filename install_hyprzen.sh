@@ -165,6 +165,11 @@ inst() {
     paru -S asusctl
   fi
 
+  # Copy fonts
+  sudo cp -r TTF /usr/share/fonts/
+  
+  sudo cp ttyclock.ttf /usr/share/fonts/TTF/
+
 }
 
 spec() {
